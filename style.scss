@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$main-color: yellow;
+
+@mixin styleforheading($textcolor) {
+    color: $textcolor;
+    text-align: center;
+    font-size: 50px;
+}
+
+.container{
+    height: 400px;
+    background-color: $main-color;
+
+    h2{
+        @include styleforheading(red)
+    }
+}
+
+.footer{
+    background-color: $main-color;
+    height: 400px;
+    margin-top: 20px;
+
+    h2{
+        @include styleforheading(green)
+    }
+}

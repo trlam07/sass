@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 400px;
+  background-color: yellow;
+}
+.container h2 {
+  color: red;
+  text-align: center;
+  font-size: 50px;
+}
+
+.footer {
+  background-color: yellow;
+  height: 400px;
+  margin-top: 20px;
+}
+.footer h2 {
+  color: green;
+  text-align: center;
+  font-size: 50px;
+}/*# sourceMappingURL=style.css.map */
